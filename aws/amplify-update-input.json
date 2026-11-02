@@ -1,0 +1,6 @@
+{
+  "appId": "d1n26u74la43b2",
+  "platform": "WEB",
+  "buildSpec": "version: 1\nfrontend:\n  phases:\n    preBuild:\n      commands:\n        - nvm use 20\n        - npm install -g pnpm@9.15.9\n        - pnpm install --frozen-lockfile\n    build:\n      commands:\n        - pnpm run build\n  artifacts:\n    baseDirectory: dist\n    files:\n      - '**/*'\n  cache:\n    paths:\n      - node_modules/**/*\n"
+}
+
