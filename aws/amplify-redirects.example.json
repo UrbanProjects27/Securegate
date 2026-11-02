@@ -1,0 +1,9 @@
+[
+  {
+    "source": "/api/<*>",
+    "target": "https://YOUR_API_ID.execute-api.ap-south-1.amazonaws.com/api/<*>",
+    "status": "200",
+    "condition": null
+  }
+]
+
